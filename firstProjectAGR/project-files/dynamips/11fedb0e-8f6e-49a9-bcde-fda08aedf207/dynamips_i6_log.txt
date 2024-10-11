@@ -1,0 +1,36 @@
+Oct 11 10:25:40.446 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 11 10:25:40.446 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 37575.
+Oct 11 10:25:40.455 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 10:25:40.455 HYPERVISOR: exec_cmd: hypervisor working_dir /home/danilo/Danilo/ua/3ºano/AGR/Praticas/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 11 10:25:40.455 GENERAL: working_dir=/home/danilo/Danilo/ua/3ºano/AGR/Praticas/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 11 10:25:40.455 HYPERVISOR: exec_cmd: hypervisor working_dir /home/danilo/Danilo/ua/3ºano/AGR/Praticas/Project1_AGR/firstProjectAGR/project-files/dynamips/55db00be-cc08-4238-96b0-498b14146f14 
+Oct 11 10:25:40.455 GENERAL: working_dir=/home/danilo/Danilo/ua/3ºano/AGR/Praticas/Project1_AGR/firstProjectAGR/project-files/dynamips/55db00be-cc08-4238-96b0-498b14146f14
+Oct 11 10:25:40.456 HYPERVISOR: exec_cmd: vm create ISP 3 c3725 
+Oct 11 10:25:40.456 VM: VM ISP created.
+Oct 11 10:25:40.456 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5019 
+Oct 11 10:25:40.456 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+Oct 11 10:25:40.456 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Oct 11 10:25:40.456 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 10:25:40.456 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x60a68e70 
+Oct 11 10:25:40.456 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 10:25:40.457 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c203.33c7.0000 
+Oct 11 10:25:40.457 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Oct 11 10:25:40.457 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 10:25:40.457 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 1 0 NM-1FE-TX 
+Oct 11 10:25:40.457 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 10:25:40.457 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 2 0 NM-1FE-TX 
+Oct 11 10:31:24.407 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 10:31:24.785 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 10:31:25.140 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 10:32:07.632 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 10:32:09.919 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 10:32:10.861 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 11:00:01.286 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 11:00:01.286 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Oct 11 11:00:01.314 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 11:00:01.316 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Oct 11 11:00:01.316 HYPERVISOR: exec_cmd: vm delete ISP 
+Oct 11 11:00:01.316 VM: VM ISP destroyed.
+Oct 11 11:00:01.317 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 11 11:00:01.760 HYPERVISOR: Stopped.
+Oct 11 11:00:01.760 GENERAL: reset done.
