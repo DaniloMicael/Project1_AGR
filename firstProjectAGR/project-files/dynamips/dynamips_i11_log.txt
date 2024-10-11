@@ -1,0 +1,47 @@
+Oct 11 11:22:00.926 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 11 11:22:00.926 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51161.
+Oct 11 11:22:00.934 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 11:22:00.934 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 11 11:22:00.934 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 11 11:22:00.934 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/f4b3b342-f750-4daf-9659-11afbe16e602 
+Oct 11 11:22:00.934 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/f4b3b342-f750-4daf-9659-11afbe16e602
+Oct 11 11:22:00.934 HYPERVISOR: exec_cmd: vm create R2 5 c3725 
+Oct 11 11:22:00.934 VM: VM R2 created.
+Oct 11 11:22:00.935 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5022 
+Oct 11 11:22:00.935 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Oct 11 11:22:00.935 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Oct 11 11:22:00.935 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 11 11:22:00.935 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60a68e70 
+Oct 11 11:22:00.936 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 11:22:00.936 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c205.3404.0000 
+Oct 11 11:22:00.936 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Oct 11 11:22:00.936 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 11 11:22:00.936 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Oct 11 11:22:00.936 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 11 11:22:00.937 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+Oct 11 11:22:00.937 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5022 
+Oct 11 12:58:54.974 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 17:18:02.174 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 17:29:02.016 HYPERVISOR: exec_cmd: nio create_udp udp-52165cd9-91a8-4f69-b7df-dc1ccecd4470 10120 127.0.0.1 10121 
+Oct 11 17:29:02.227 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-52165cd9-91a8-4f69-b7df-dc1ccecd4470 
+Oct 11 17:29:02.228 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 11 17:29:10.159 HYPERVISOR: exec_cmd: nio create_udp udp-3c3edb45-cb23-4976-ba4b-69357ca17e6c 10124 127.0.0.1 10125 
+Oct 11 17:29:10.160 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-3c3edb45-cb23-4976-ba4b-69357ca17e6c 
+Oct 11 17:29:10.160 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 11 17:29:32.643 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 11 17:29:32.643 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 1 
+Oct 11 17:29:32.645 HYPERVISOR: exec_cmd: nio delete udp-3c3edb45-cb23-4976-ba4b-69357ca17e6c 
+Oct 11 17:29:37.899 HYPERVISOR: exec_cmd: nio create_udp udp-e4236d0f-6877-458e-8ddf-19da7490a19b 10124 127.0.0.1 10125 
+Oct 11 17:29:37.900 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-e4236d0f-6877-458e-8ddf-19da7490a19b 
+Oct 11 17:29:37.900 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 11 17:30:45.113 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 17:32:19.724 HYPERVISOR: exec_cmd: nio create_udp udp-65a50576-3b41-477a-84a4-a34bace34051 10138 127.0.0.1 10139 
+Oct 11 17:32:19.725 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-65a50576-3b41-477a-84a4-a34bace34051 
+Oct 11 17:32:19.726 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 11 17:55:12.253 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 17:55:15.763 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 18:23:19.592 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 18:23:19.685 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 18:23:24.339 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 18:23:25.857 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 18:23:25.946 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 

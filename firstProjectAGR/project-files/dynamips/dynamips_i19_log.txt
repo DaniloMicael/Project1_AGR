@@ -1,0 +1,33 @@
+Oct 11 17:16:01.633 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 11 17:16:01.633 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 48271.
+Oct 11 17:16:01.645 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 17:16:01.646 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 11 17:16:01.646 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 11 17:16:01.646 HYPERVISOR: exec_cmd: ethsw create Switch6 
+Oct 11 17:33:03.135 HYPERVISOR: exec_cmd: nio create_udp udp-03220c5c-9c5f-4791-b31a-8a8207f2a31b 10155 127.0.0.1 10154 
+Oct 11 17:33:03.136 HYPERVISOR: exec_cmd: ethsw add_nio Switch6 udp-03220c5c-9c5f-4791-b31a-8a8207f2a31b 
+Oct 11 17:33:03.143 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-03220c5c-9c5f-4791-b31a-8a8207f2a31b 1 
+Oct 11 17:33:07.262 HYPERVISOR: exec_cmd: nio create_udp udp-bf072002-db58-479d-8702-ef03a087b28c 10158 127.0.0.1 10159 
+Oct 11 17:33:07.262 HYPERVISOR: exec_cmd: ethsw add_nio Switch6 udp-bf072002-db58-479d-8702-ef03a087b28c 
+Oct 11 17:33:07.282 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-bf072002-db58-479d-8702-ef03a087b28c 1 
+Oct 11 17:33:10.404 HYPERVISOR: exec_cmd: nio create_udp udp-215a946e-6238-428e-9f53-e6364387770b 10160 127.0.0.1 10161 
+Oct 11 17:33:10.404 HYPERVISOR: exec_cmd: ethsw add_nio Switch6 udp-215a946e-6238-428e-9f53-e6364387770b 
+Oct 11 17:33:10.417 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-215a946e-6238-428e-9f53-e6364387770b 1 
+Oct 11 17:39:02.024 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-03220c5c-9c5f-4791-b31a-8a8207f2a31b 1 
+Oct 11 17:39:02.025 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-bf072002-db58-479d-8702-ef03a087b28c 1 
+Oct 11 17:39:02.026 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-215a946e-6238-428e-9f53-e6364387770b 1 
+Oct 11 17:39:25.929 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-03220c5c-9c5f-4791-b31a-8a8207f2a31b 1 
+Oct 11 17:39:25.930 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-bf072002-db58-479d-8702-ef03a087b28c 1 
+Oct 11 17:39:25.930 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-215a946e-6238-428e-9f53-e6364387770b 1 
+Oct 11 17:41:29.728 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-03220c5c-9c5f-4791-b31a-8a8207f2a31b 1 
+Oct 11 17:41:29.733 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-bf072002-db58-479d-8702-ef03a087b28c 1 
+Oct 11 17:41:29.795 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-215a946e-6238-428e-9f53-e6364387770b 1 
+Oct 11 17:46:10.510 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-03220c5c-9c5f-4791-b31a-8a8207f2a31b 1 
+Oct 11 17:46:10.515 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-bf072002-db58-479d-8702-ef03a087b28c 1 
+Oct 11 17:46:10.515 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-215a946e-6238-428e-9f53-e6364387770b 1 
+Oct 11 17:55:13.654 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-03220c5c-9c5f-4791-b31a-8a8207f2a31b 1 
+Oct 11 17:55:13.657 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-bf072002-db58-479d-8702-ef03a087b28c 1 
+Oct 11 17:55:13.791 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-215a946e-6238-428e-9f53-e6364387770b 1 
+Oct 11 17:55:15.321 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-03220c5c-9c5f-4791-b31a-8a8207f2a31b 1 
+Oct 11 17:55:15.326 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-bf072002-db58-479d-8702-ef03a087b28c 1 
+Oct 11 17:55:15.390 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-215a946e-6238-428e-9f53-e6364387770b 1 

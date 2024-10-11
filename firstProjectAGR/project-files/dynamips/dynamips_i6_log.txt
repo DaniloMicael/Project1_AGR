@@ -1,0 +1,21 @@
+Oct 11 11:22:00.741 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 11 11:22:00.741 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 44281.
+Oct 11 11:22:00.749 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 11:22:00.749 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 11 11:22:00.749 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 11 11:22:00.749 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Oct 11 17:32:14.928 HYPERVISOR: exec_cmd: nio create_udp udp-1c285e59-ad14-4c69-a7ea-c60569cf437d 10133 127.0.0.1 10132 
+Oct 11 17:32:14.928 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-1c285e59-ad14-4c69-a7ea-c60569cf437d 
+Oct 11 17:32:14.934 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-1c285e59-ad14-4c69-a7ea-c60569cf437d 1 
+Oct 11 17:32:19.733 HYPERVISOR: exec_cmd: nio create_udp udp-10d06ce4-9f1a-4fad-a68d-e71975f256cf 10137 127.0.0.1 10136 
+Oct 11 17:32:19.733 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-10d06ce4-9f1a-4fad-a68d-e71975f256cf 
+Oct 11 17:32:19.736 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-10d06ce4-9f1a-4fad-a68d-e71975f256cf 1 
+Oct 11 17:32:23.682 HYPERVISOR: exec_cmd: nio create_udp udp-e03c0c7d-22d7-4afc-be76-e882d5034610 10140 127.0.0.1 10141 
+Oct 11 17:32:23.683 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-e03c0c7d-22d7-4afc-be76-e882d5034610 
+Oct 11 17:32:23.694 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-e03c0c7d-22d7-4afc-be76-e882d5034610 1 
+Oct 11 17:55:13.418 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-1c285e59-ad14-4c69-a7ea-c60569cf437d 1 
+Oct 11 17:55:13.419 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-10d06ce4-9f1a-4fad-a68d-e71975f256cf 1 
+Oct 11 17:55:13.652 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-e03c0c7d-22d7-4afc-be76-e882d5034610 1 
+Oct 11 17:55:16.086 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-1c285e59-ad14-4c69-a7ea-c60569cf437d 1 
+Oct 11 17:55:16.154 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-10d06ce4-9f1a-4fad-a68d-e71975f256cf 1 
+Oct 11 17:55:16.277 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-e03c0c7d-22d7-4afc-be76-e882d5034610 1 

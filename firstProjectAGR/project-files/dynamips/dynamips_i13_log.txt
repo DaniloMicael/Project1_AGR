@@ -1,0 +1,31 @@
+Oct 11 11:22:01.019 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 11 11:22:01.019 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38653.
+Oct 11 11:22:01.027 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 11:22:01.027 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 11 11:22:01.027 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 11 11:22:01.027 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/d26a8950-fca6-415d-be79-6c6e25eb5170 
+Oct 11 11:22:01.027 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/d26a8950-fca6-415d-be79-6c6e25eb5170
+Oct 11 11:22:01.027 HYPERVISOR: exec_cmd: vm create R4 7 c3725 
+Oct 11 11:22:01.027 VM: VM R4 created.
+Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5024 
+Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
+Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60a68e70 
+Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm set_ios R4 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: c3725 set_mac_addr R4 c207.3448.0000 
+Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-1FE-TX 
+Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1FE-TX 
+Oct 11 11:22:01.030 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5024 
+Oct 11 17:24:57.190 HYPERVISOR: exec_cmd: nio create_udp udp-c4608ddc-43f0-40c5-9d81-d2f2d6cb75af 10104 127.0.0.1 10105 
+Oct 11 17:24:57.398 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-c4608ddc-43f0-40c5-9d81-d2f2d6cb75af 
+Oct 11 17:24:57.399 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 11 17:26:42.485 HYPERVISOR: exec_cmd: nio create_udp udp-fc7b209c-d21c-41c5-9c69-cb4aded61f2f 10108 127.0.0.1 10109 
+Oct 11 17:26:42.486 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-fc7b209c-d21c-41c5-9c69-cb4aded61f2f 
+Oct 11 17:26:42.486 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 11 17:27:16.744 HYPERVISOR: exec_cmd: vm set_ios R4 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 17:55:13.097 HYPERVISOR: exec_cmd: vm set_ios R4 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 17:55:15.611 HYPERVISOR: exec_cmd: vm set_ios R4 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 

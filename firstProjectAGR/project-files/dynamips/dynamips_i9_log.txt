@@ -1,0 +1,31 @@
+Oct 11 11:22:00.831 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 11 11:22:00.831 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49449.
+Oct 11 11:22:00.839 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 11:22:00.839 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 11 11:22:00.839 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 11 11:22:00.839 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/55db00be-cc08-4238-96b0-498b14146f14 
+Oct 11 11:22:00.839 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/55db00be-cc08-4238-96b0-498b14146f14
+Oct 11 11:22:00.839 HYPERVISOR: exec_cmd: vm create ISP 3 c3725 
+Oct 11 11:22:00.839 VM: VM ISP created.
+Oct 11 11:22:00.840 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5020 
+Oct 11 11:22:00.840 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+Oct 11 11:22:00.840 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Oct 11 11:22:00.840 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 11:22:00.840 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x60a68e70 
+Oct 11 11:22:00.840 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 11:22:00.840 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c203.33c7.0000 
+Oct 11 11:22:00.841 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Oct 11 11:22:00.841 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 11:22:00.841 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 1 0 NM-1FE-TX 
+Oct 11 11:22:00.841 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 11:22:00.841 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 2 0 NM-1FE-TX 
+Oct 11 11:22:00.842 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5020 
+Oct 11 17:18:07.442 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 17:32:23.701 HYPERVISOR: exec_cmd: nio create_udp udp-a2235caf-3b80-44bf-90d0-1c12586ee377 10142 127.0.0.1 10143 
+Oct 11 17:32:23.912 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-a2235caf-3b80-44bf-90d0-1c12586ee377 
+Oct 11 17:32:23.913 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 17:32:36.252 HYPERVISOR: exec_cmd: nio create_udp udp-1c1081fb-8265-46b6-927b-6fa246bb1bfe 10146 127.0.0.1 10147 
+Oct 11 17:32:36.253 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-1c1081fb-8265-46b6-927b-6fa246bb1bfe 
+Oct 11 17:32:36.253 HYPERVISOR: exec_cmd: vm get_status ISP 
+Oct 11 17:55:13.926 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 11 17:55:15.856 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 

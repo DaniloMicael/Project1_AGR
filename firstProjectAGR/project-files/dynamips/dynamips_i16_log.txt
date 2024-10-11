@@ -1,0 +1,33 @@
+Oct 11 11:22:01.164 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 11 11:22:01.164 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47293.
+Oct 11 11:22:01.173 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 11:22:01.174 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 11 11:22:01.174 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 11 11:22:01.174 HYPERVISOR: exec_cmd: ethsw create Switch5 
+Oct 11 17:26:42.493 HYPERVISOR: exec_cmd: nio create_udp udp-5493bc5e-f880-449a-8cda-893415b5af28 10107 127.0.0.1 10106 
+Oct 11 17:26:42.493 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-5493bc5e-f880-449a-8cda-893415b5af28 
+Oct 11 17:26:42.501 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-5493bc5e-f880-449a-8cda-893415b5af28 1 
+Oct 11 17:26:48.402 HYPERVISOR: exec_cmd: nio create_udp udp-345a3eb2-a5ef-41e6-95b1-5514edaf729a 10110 127.0.0.1 10111 
+Oct 11 17:26:48.402 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-345a3eb2-a5ef-41e6-95b1-5514edaf729a 
+Oct 11 17:26:48.409 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-345a3eb2-a5ef-41e6-95b1-5514edaf729a 1 
+Oct 11 17:26:51.377 HYPERVISOR: exec_cmd: nio create_udp udp-2f211c4e-d48c-41f4-943e-39137e526f3c 10112 127.0.0.1 10113 
+Oct 11 17:26:51.378 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-2f211c4e-d48c-41f4-943e-39137e526f3c 
+Oct 11 17:26:51.381 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-2f211c4e-d48c-41f4-943e-39137e526f3c 1 
+Oct 11 17:26:57.769 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-5493bc5e-f880-449a-8cda-893415b5af28 1 
+Oct 11 17:26:57.775 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-345a3eb2-a5ef-41e6-95b1-5514edaf729a 1 
+Oct 11 17:26:57.775 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-2f211c4e-d48c-41f4-943e-39137e526f3c 1 
+Oct 11 17:27:41.168 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-5493bc5e-f880-449a-8cda-893415b5af28 1 
+Oct 11 17:27:41.174 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-345a3eb2-a5ef-41e6-95b1-5514edaf729a 1 
+Oct 11 17:27:41.174 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-2f211c4e-d48c-41f4-943e-39137e526f3c 1 
+Oct 11 17:47:29.253 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-5493bc5e-f880-449a-8cda-893415b5af28 1 
+Oct 11 17:47:29.259 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-345a3eb2-a5ef-41e6-95b1-5514edaf729a 1 
+Oct 11 17:47:29.260 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-2f211c4e-d48c-41f4-943e-39137e526f3c 1 
+Oct 11 17:47:31.140 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-5493bc5e-f880-449a-8cda-893415b5af28 1 
+Oct 11 17:47:31.141 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-345a3eb2-a5ef-41e6-95b1-5514edaf729a 1 
+Oct 11 17:47:31.141 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-2f211c4e-d48c-41f4-943e-39137e526f3c 1 
+Oct 11 17:55:12.322 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-5493bc5e-f880-449a-8cda-893415b5af28 1 
+Oct 11 17:55:12.337 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-345a3eb2-a5ef-41e6-95b1-5514edaf729a 1 
+Oct 11 17:55:12.522 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-2f211c4e-d48c-41f4-943e-39137e526f3c 1 
+Oct 11 17:55:15.323 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-5493bc5e-f880-449a-8cda-893415b5af28 1 
+Oct 11 17:55:15.326 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-345a3eb2-a5ef-41e6-95b1-5514edaf729a 1 
+Oct 11 17:55:15.466 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-2f211c4e-d48c-41f4-943e-39137e526f3c 1 

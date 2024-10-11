@@ -1,0 +1,36 @@
+Oct 11 11:22:00.760 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 11 11:22:00.760 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34699.
+Oct 11 11:22:00.769 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 11:22:00.769 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 11 11:22:00.769 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 11 11:22:00.769 HYPERVISOR: exec_cmd: ethsw create Switch2 
+Oct 11 11:22:01.932 HYPERVISOR: exec_cmd: nio create_udp udp-a22285eb-ec3a-4626-8efa-591d971a6f9f 10061 127.0.0.1 10060 
+Oct 11 11:22:01.932 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-a22285eb-ec3a-4626-8efa-591d971a6f9f 
+Oct 11 11:22:01.943 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-a22285eb-ec3a-4626-8efa-591d971a6f9f 1 
+Oct 11 11:22:02.008 HYPERVISOR: exec_cmd: nio create_udp udp-1c830d3c-3c3e-48af-a3b7-6ed206eaa65d 10065 127.0.0.1 10064 
+Oct 11 11:22:02.008 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-1c830d3c-3c3e-48af-a3b7-6ed206eaa65d 
+Oct 11 11:22:02.024 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-1c830d3c-3c3e-48af-a3b7-6ed206eaa65d 1 
+Oct 11 11:22:02.163 HYPERVISOR: exec_cmd: nio create_udp udp-1915809c-2a0b-40be-9c09-ad74f3ba3558 10072 127.0.0.1 10073 
+Oct 11 11:22:02.163 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-1915809c-2a0b-40be-9c09-ad74f3ba3558 
+Oct 11 11:22:02.164 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-1915809c-2a0b-40be-9c09-ad74f3ba3558 1 
+Oct 11 11:22:02.230 HYPERVISOR: exec_cmd: nio create_udp udp-b68cb803-33bc-49ce-b59b-44a6a3b53e3c 10074 127.0.0.1 10075 
+Oct 11 11:22:02.230 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-b68cb803-33bc-49ce-b59b-44a6a3b53e3c 
+Oct 11 11:22:02.244 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-b68cb803-33bc-49ce-b59b-44a6a3b53e3c 2 
+Oct 11 11:22:02.309 HYPERVISOR: exec_cmd: nio create_udp udp-18547aee-ef31-4ff7-aae3-f716afb7b2c2 10076 127.0.0.1 10077 
+Oct 11 11:22:02.309 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-18547aee-ef31-4ff7-aae3-f716afb7b2c2 
+Oct 11 11:22:02.325 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-18547aee-ef31-4ff7-aae3-f716afb7b2c2 3 
+Oct 11 11:23:20.674 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-a22285eb-ec3a-4626-8efa-591d971a6f9f 1 
+Oct 11 11:23:20.680 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-1c830d3c-3c3e-48af-a3b7-6ed206eaa65d 1 
+Oct 11 11:23:20.681 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-1915809c-2a0b-40be-9c09-ad74f3ba3558 1 
+Oct 11 11:23:20.681 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-b68cb803-33bc-49ce-b59b-44a6a3b53e3c 2 
+Oct 11 11:23:20.682 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-18547aee-ef31-4ff7-aae3-f716afb7b2c2 3 
+Oct 11 17:54:07.911 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-a22285eb-ec3a-4626-8efa-591d971a6f9f 1 
+Oct 11 17:54:07.916 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-1c830d3c-3c3e-48af-a3b7-6ed206eaa65d 1 
+Oct 11 17:54:07.917 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-1915809c-2a0b-40be-9c09-ad74f3ba3558 1 
+Oct 11 17:54:07.917 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-b68cb803-33bc-49ce-b59b-44a6a3b53e3c 2 
+Oct 11 17:54:07.917 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-18547aee-ef31-4ff7-aae3-f716afb7b2c2 3 
+Oct 11 17:54:07.988 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-a22285eb-ec3a-4626-8efa-591d971a6f9f 1 
+Oct 11 17:54:07.988 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-1c830d3c-3c3e-48af-a3b7-6ed206eaa65d 1 
+Oct 11 17:54:07.988 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-1915809c-2a0b-40be-9c09-ad74f3ba3558 1 
+Oct 11 17:54:07.988 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-b68cb803-33bc-49ce-b59b-44a6a3b53e3c 2 
+Oct 11 17:54:07.989 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-18547aee-ef31-4ff7-aae3-f716afb7b2c2 3 
