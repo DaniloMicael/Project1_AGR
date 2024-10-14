@@ -1,31 +1,17 @@
-Oct 11 11:22:01.019 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
-Oct 11 11:22:01.019 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38653.
-Oct 11 11:22:01.027 HYPERVISOR: exec_cmd: hypervisor version 
-Oct 11 11:22:01.027 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
-Oct 11 11:22:01.027 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
-Oct 11 11:22:01.027 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/d26a8950-fca6-415d-be79-6c6e25eb5170 
-Oct 11 11:22:01.027 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/d26a8950-fca6-415d-be79-6c6e25eb5170
-Oct 11 11:22:01.027 HYPERVISOR: exec_cmd: vm create R4 7 c3725 
-Oct 11 11:22:01.027 VM: VM R4 created.
-Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5024 
-Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
-Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
-Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm get_status R4 
-Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60a68e70 
-Oct 11 11:22:01.028 HYPERVISOR: exec_cmd: vm set_ios R4 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: c3725 set_mac_addr R4 c207.3448.0000 
-Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
-Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm get_status R4 
-Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-1FE-TX 
-Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm get_status R4 
-Oct 11 11:22:01.029 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1FE-TX 
-Oct 11 11:22:01.030 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5024 
-Oct 11 17:24:57.190 HYPERVISOR: exec_cmd: nio create_udp udp-c4608ddc-43f0-40c5-9d81-d2f2d6cb75af 10104 127.0.0.1 10105 
-Oct 11 17:24:57.398 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-c4608ddc-43f0-40c5-9d81-d2f2d6cb75af 
-Oct 11 17:24:57.399 HYPERVISOR: exec_cmd: vm get_status R4 
-Oct 11 17:26:42.485 HYPERVISOR: exec_cmd: nio create_udp udp-fc7b209c-d21c-41c5-9c69-cb4aded61f2f 10108 127.0.0.1 10109 
-Oct 11 17:26:42.486 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-fc7b209c-d21c-41c5-9c69-cb4aded61f2f 
-Oct 11 17:26:42.486 HYPERVISOR: exec_cmd: vm get_status R4 
-Oct 11 17:27:16.744 HYPERVISOR: exec_cmd: vm set_ios R4 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Oct 11 17:55:13.097 HYPERVISOR: exec_cmd: vm set_ios R4 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Oct 11 17:55:15.611 HYPERVISOR: exec_cmd: vm set_ios R4 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 13 18:12:59.349 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 13 18:12:59.349 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50367.
+Oct 13 18:12:59.357 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 13 18:12:59.357 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 13 18:12:59.357 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 13 18:12:59.358 HYPERVISOR: exec_cmd: ethsw create Switch4 
+Oct 13 18:13:01.014 HYPERVISOR: exec_cmd: nio create_udp udp-95603dda-88e5-46b9-84c0-a7635d2983d3 10029 127.0.0.1 10028 
+Oct 13 18:13:01.014 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-95603dda-88e5-46b9-84c0-a7635d2983d3 
+Oct 13 18:13:01.014 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-95603dda-88e5-46b9-84c0-a7635d2983d3 1 
+Oct 13 18:13:01.073 HYPERVISOR: exec_cmd: nio create_udp udp-69817720-e085-4736-a71f-3670b1e3569c 10032 127.0.0.1 10033 
+Oct 13 18:13:01.073 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-69817720-e085-4736-a71f-3670b1e3569c 
+Oct 13 18:13:01.075 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-69817720-e085-4736-a71f-3670b1e3569c 1 
+Oct 13 18:13:01.140 HYPERVISOR: exec_cmd: nio create_udp udp-1a3a3c51-bcad-46e5-b364-6be7189e2a4d 10034 127.0.0.1 10035 
+Oct 13 18:13:01.141 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-1a3a3c51-bcad-46e5-b364-6be7189e2a4d 
+Oct 13 18:13:01.155 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-1a3a3c51-bcad-46e5-b364-6be7189e2a4d 1 
+Oct 14 07:27:33.214 HYPERVISOR: Stopped.
+Oct 14 07:27:33.271 GENERAL: reset done.

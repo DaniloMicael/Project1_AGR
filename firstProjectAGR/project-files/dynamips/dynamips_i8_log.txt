@@ -1,31 +1,57 @@
-Oct 11 11:22:00.781 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
-Oct 11 11:22:00.781 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 44169.
-Oct 11 11:22:00.789 HYPERVISOR: exec_cmd: hypervisor version 
-Oct 11 11:22:00.789 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
-Oct 11 11:22:00.789 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
-Oct 11 11:22:00.790 HYPERVISOR: exec_cmd: ethsw create Switch3 
-Oct 11 11:22:01.852 HYPERVISOR: exec_cmd: nio create_udp udp-78cd7cce-db53-49aa-86c1-977449ff497e 10057 127.0.0.1 10056 
-Oct 11 11:22:01.853 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-78cd7cce-db53-49aa-86c1-977449ff497e 
-Oct 11 11:22:01.864 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch3 udp-78cd7cce-db53-49aa-86c1-977449ff497e 1 
-Oct 11 11:22:02.100 HYPERVISOR: exec_cmd: nio create_udp udp-ec729248-3844-49e7-8eca-41cd16f0e2a8 10069 127.0.0.1 10068 
-Oct 11 11:22:02.101 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-ec729248-3844-49e7-8eca-41cd16f0e2a8 
-Oct 11 11:22:02.105 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch3 udp-ec729248-3844-49e7-8eca-41cd16f0e2a8 1 
-Oct 11 11:22:02.392 HYPERVISOR: exec_cmd: nio create_udp udp-320f3848-8c46-4db6-ba41-4e2e2b429c17 10078 127.0.0.1 10079 
-Oct 11 11:22:02.393 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-320f3848-8c46-4db6-ba41-4e2e2b429c17 
-Oct 11 11:22:02.406 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-320f3848-8c46-4db6-ba41-4e2e2b429c17 3 
-Oct 11 11:22:02.471 HYPERVISOR: exec_cmd: nio create_udp udp-932654f7-64af-4fd7-a194-0e870ce01741 10080 127.0.0.1 10081 
-Oct 11 11:22:02.471 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-932654f7-64af-4fd7-a194-0e870ce01741 
-Oct 11 11:22:02.486 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-932654f7-64af-4fd7-a194-0e870ce01741 2 
-Oct 11 11:22:02.552 HYPERVISOR: exec_cmd: nio create_udp udp-252d0f91-3af1-4b9d-b0f9-684cb21391ab 10082 127.0.0.1 10083 
-Oct 11 11:22:02.552 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-252d0f91-3af1-4b9d-b0f9-684cb21391ab 
-Oct 11 11:22:02.566 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-252d0f91-3af1-4b9d-b0f9-684cb21391ab 1 
-Oct 11 17:54:06.373 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch3 udp-78cd7cce-db53-49aa-86c1-977449ff497e 1 
-Oct 11 17:54:06.374 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch3 udp-ec729248-3844-49e7-8eca-41cd16f0e2a8 1 
-Oct 11 17:54:06.374 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-320f3848-8c46-4db6-ba41-4e2e2b429c17 3 
-Oct 11 17:54:06.374 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-932654f7-64af-4fd7-a194-0e870ce01741 2 
-Oct 11 17:54:06.375 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-252d0f91-3af1-4b9d-b0f9-684cb21391ab 1 
-Oct 11 17:54:06.450 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch3 udp-78cd7cce-db53-49aa-86c1-977449ff497e 1 
-Oct 11 17:54:06.451 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch3 udp-ec729248-3844-49e7-8eca-41cd16f0e2a8 1 
-Oct 11 17:54:06.451 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-320f3848-8c46-4db6-ba41-4e2e2b429c17 3 
-Oct 11 17:54:06.451 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-932654f7-64af-4fd7-a194-0e870ce01741 2 
-Oct 11 17:54:06.451 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-252d0f91-3af1-4b9d-b0f9-684cb21391ab 1 
+Oct 13 18:12:58.888 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 13 18:12:58.888 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60385.
+Oct 13 18:12:58.896 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 13 18:12:58.897 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips 
+Oct 13 18:12:58.897 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips
+Oct 13 18:12:58.898 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/f4b3b342-f750-4daf-9659-11afbe16e602 
+Oct 13 18:12:58.898 GENERAL: working_dir=/home/tomas/Desktop/AGR/Project1_AGR/firstProjectAGR/project-files/dynamips/f4b3b342-f750-4daf-9659-11afbe16e602
+Oct 13 18:12:58.898 HYPERVISOR: exec_cmd: vm create R2 5 c3725 
+Oct 13 18:12:58.899 VM: VM R2 created.
+Oct 13 18:12:58.900 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5022 
+Oct 13 18:12:58.900 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Oct 13 18:12:58.901 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Oct 13 18:12:58.902 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 13 18:12:58.903 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60a68e70 
+Oct 13 18:12:58.904 HYPERVISOR: exec_cmd: vm set_ios R2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Oct 13 18:12:58.905 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c205.3404.0000 
+Oct 13 18:12:58.906 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Oct 13 18:12:58.907 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 13 18:12:58.907 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Oct 13 18:12:58.908 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 13 18:12:58.909 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+Oct 13 18:13:02.744 HYPERVISOR: exec_cmd: nio create_udp udp-438d7d6b-0c98-403b-8a0d-a8761731ad91 10072 127.0.0.1 10073 
+Oct 13 18:13:02.953 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-438d7d6b-0c98-403b-8a0d-a8761731ad91 
+Oct 13 18:13:02.954 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 13 18:13:03.135 HYPERVISOR: exec_cmd: nio create_udp udp-22324af9-6e5d-4860-baf5-3bb7f6e37e19 10076 127.0.0.1 10077 
+Oct 13 18:13:03.136 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-22324af9-6e5d-4860-baf5-3bb7f6e37e19 
+Oct 13 18:13:03.136 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 13 18:13:03.369 HYPERVISOR: exec_cmd: nio create_udp udp-be7ae6f9-f141-4015-a9a2-04233e71ff9b 10090 127.0.0.1 10091 
+Oct 13 18:13:03.369 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-be7ae6f9-f141-4015-a9a2-04233e71ff9b 
+Oct 13 18:13:03.370 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 13 19:13:43.525 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 13 19:13:43.526 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 1 
+Oct 13 19:13:43.529 HYPERVISOR: exec_cmd: nio delete udp-22324af9-6e5d-4860-baf5-3bb7f6e37e19 
+Oct 13 19:13:55.487 HYPERVISOR: exec_cmd: nio create_udp udp-320dd11b-1701-4eee-aee8-d6a0a2916c93 10046 127.0.0.1 10047 
+Oct 13 19:13:55.488 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-320dd11b-1701-4eee-aee8-d6a0a2916c93 
+Oct 13 19:13:55.488 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 14 05:44:47.798 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 14 05:44:47.798 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 1 
+Oct 14 05:44:47.799 HYPERVISOR: exec_cmd: nio delete udp-320dd11b-1701-4eee-aee8-d6a0a2916c93 
+Oct 14 05:44:56.858 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 14 05:44:56.858 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 0 
+Oct 14 05:44:56.858 HYPERVISOR: exec_cmd: nio delete udp-438d7d6b-0c98-403b-8a0d-a8761731ad91 
+Oct 14 05:45:04.422 HYPERVISOR: exec_cmd: nio create_udp udp-03e17791-e712-45b9-9bb0-090e420c218e 10044 127.0.0.1 10045 
+Oct 14 05:45:04.423 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-03e17791-e712-45b9-9bb0-090e420c218e 
+Oct 14 05:45:04.423 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 14 05:45:11.575 HYPERVISOR: exec_cmd: nio create_udp udp-665150fb-5eee-4f21-8d91-dfe20c8ed7dc 10072 127.0.0.1 10073 
+Oct 14 05:45:11.576 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-665150fb-5eee-4f21-8d91-dfe20c8ed7dc 
+Oct 14 05:45:11.577 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 14 05:45:20.187 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 14 05:45:20.192 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 1 0 
+Oct 14 05:45:20.193 HYPERVISOR: exec_cmd: nio delete udp-be7ae6f9-f141-4015-a9a2-04233e71ff9b 
+Oct 14 05:45:25.154 HYPERVISOR: exec_cmd: nio create_udp udp-639e126b-0a54-44c7-8068-c09dce4b2789 10090 127.0.0.1 10091 
+Oct 14 05:45:25.157 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 2 0 udp-639e126b-0a54-44c7-8068-c09dce4b2789 
+Oct 14 05:45:25.157 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 14 07:27:33.214 HYPERVISOR: Stopped.
+Oct 14 07:27:33.221 VM: VM R2 destroyed.
+Oct 14 07:27:33.222 GENERAL: reset done.
